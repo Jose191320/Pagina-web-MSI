@@ -1,0 +1,268 @@
+
+/* reset */
+@import url('css_reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 87%;
+    margin: 0 auto;
+    padding: -50px !important;
+   
+    /* margin: 0 auto; */
+}
+
+
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;;
+    
+
+}
+
+.container-fluid  {
+    background-color: #b91313;
+}
+
+.imgPrinc
+{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.imgBack
+{
+    width: 100%;
+    
+    margin-top: -30px;
+}
+
+.gs {
+
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    color:white; 
+    font-weight: bold;
+    padding: 20px;
+    font-style: italic;
+    
+}
+.gs h1{
+    font-size: 400%;
+    color: white;
+}
+
+.gs2 {
+    position: absolute;
+    font-size: 300%;
+    top: 150%;
+    left: 10%;
+    color:white;
+    font-weight: bold;
+    padding: 20px;
+    font-style: italic;
+}
+.comprar a{
+    font-size: 60%;
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    background-color: #b91313;
+    border-radius: 50px;
+}
+.comprar a:hover{
+    background-color: #941111;
+}
+
+.imgOver {
+    margin: 50px 20px 10px 30px;
+    width: 20%;
+}
+.menus a {
+    color: white;
+    text-decoration: none;
+    padding:90px 20px 45px 20px;
+    margin: auto;
+}
+.menus a:hover{
+    background-color: #a10c0c;
+    color:white;
+}
+
+p {
+    text-align: justify;
+}
+
+
+main
+{
+    margin: 0 auto;
+    max-width:60%;
+}
+
+#logo
+{
+    /* align-items: center; */
+    width: 200px;
+    
+}
+
+#imgvision
+{
+    width: 100%;
+}
+
+#imgmision
+{
+    width: 100%;
+}
+
+#imgGamers
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#gamersComp
+{
+    margin-top: 40px;
+}
+
+.col-md-6 bg-dark text-center text-light
+{
+    padding-top: 10px;
+}
+.textvision
+{
+    padding: 20px;
+    margin-top: 70px;
+    /* margin: 0; */
+
+}
+
+.textmision
+{
+    padding: 20px;
+    margin-top: 125px;
+    
+
+}
+.textgamers
+{
+    padding: 20px;
+    margin-top: 41px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+figure
+{
+    margin: 0px;
+    padding: 0px !important;
+}
+#footer {
+    display:flex ;
+    color:#0f0f0f;
+    font-size:20px;
+    padding:30px 41px 30px 41px;
+    background-image: url("Imgs/contacto.jpg");
+    background-size: cover;
+    overflow:hidden;
+
+
+  }
+  
+  #footer h2 {
+    margin-bottom:0px !important;
+    padding-bottom:0px !important;
+    padding-top:20px;
+    color:#000000;
+  }
+  
+  #footer h3 {
+    padding-bottom:10px !important;
+    color:#000000;
+  }
+  
+  .logo-footer{
+    line-height:32px;
+  }
+  
+  .logo-footer img{
+    width:auto;
+    float:left;
+    margin-right:20px;
+  }
+  
+  #footer a {
+    color:#8c8e90;
+    text-decoration:none;
+  }
+  
+  #footer a.white {
+    color:#fff;
+  }
+  
+  #footer a:hover, #footer a.white:hover {
+    color:#83adff;
+    text-decoration:none;       
+  }
+  
+  #footer i {
+    margin-right:12px;
+  }
+  
+  .texture-footer {
+    position:absolute;
+    top:-30px;
+    right:-150px;
+  }
+  
+  #footer .btn {
+    background:#282828;
+    text-shadow:none;
+    border-radius:2px;
+    -webkit-box-shadow:rgba(255, 255, 255, 00) 0 0 0 inset, rgba(0, 0, 0, 00) 0 0 0;
+    background-image:-webkit-linear-gradient(top, #282828, #282828);
+    margin-top:10px;
+    color:white;
+  }
+  
+  #footer .btn:hover {
+    background:#3b3b3b;
+  }
+  
+  #footer .btn i {
+    margin-left:12px;
+    margin-right:0px;
+  }
+.error
+{
+    font-size: large;
+}
+
+/* Contacto entradas de texto */
+.mb-1
+{
+    margin-bottom: 5px!important;
+
+}
+#send
+{
+    display: block;
+    margin: 0 auto;
+}
+
+/* #gamersH1
+{
+    margin-top: 41px ;
+} */
